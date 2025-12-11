@@ -40,7 +40,7 @@ namespace ConsoleApp10
                 Console.Clear();
                 DrawBoard();
 
-                Console.WriteLine($"Игрок {currentPlayer}, введите номер ячейки:");
+                Console.WriteLine($"Игрок {currentPlayer}, введи номер ячейки:");
 
                 validInput = int.TryParse(Console.ReadLine(), out choice) && choice >= 1 && choice <= 9 && board[choice - 1] != 'X' && board[choice - 1] != 'O';
 
@@ -82,4 +82,5 @@ namespace ConsoleApp10
             return true;
         }
     }
+
 }
