@@ -52,7 +52,7 @@ namespace ConsoleApp10
                     {
                         Console.Clear();
                         DrawBoard();
-                        Console.WriteLine($"Победил игрок {currentPlayer}!");
+                        Console.WriteLine($"Победил игрок {currentPlayer}");
                         break;
                     }
 
@@ -60,7 +60,7 @@ namespace ConsoleApp10
                     {
                         Console.Clear();
                         DrawBoard();
-                        Console.WriteLine("Ничья!");
+                        Console.WriteLine("Ничья");
                         break;
                     }
 
@@ -84,3 +84,4 @@ namespace ConsoleApp10
     }
 
 }
+
